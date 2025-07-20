@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Abhignan-portfolio/static/css/main.e1891e57.css",
+    "main.js": "/Abhignan-portfolio/static/js/main.36411699.js",
+    "static/media/Cartoon-Avatar-Transparent.png": "/Abhignan-portfolio/static/media/Cartoon-Avatar-Transparent.ee1727bd5bd37d563fab.png",
+    "index.html": "/Abhignan-portfolio/index.html",
+    "main.e1891e57.css.map": "/Abhignan-portfolio/static/css/main.e1891e57.css.map",
+    "main.36411699.js.map": "/Abhignan-portfolio/static/js/main.36411699.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e1891e57.css",
+    "static/js/main.36411699.js"
+  ]
+}
