@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="256" height="256" rx="128" fill="#F2E9FB"/>
+  <ellipse cx="128" cy="128" rx="100" ry="100" fill="#B983FF"/>
+  <ellipse cx="128" cy="128" rx="80" ry="80" fill="#F7D6FF"/>
+  <ellipse cx="128" cy="128" rx="60" ry="60" fill="#F2E9FB"/>
+  <!-- Face -->
+  <ellipse cx="128" cy="140" rx="48" ry="52" fill="#FFD6C0"/>
+  <!-- Short Hair (boyish, modern) -->
+  <path d="M96 110 Q128 70 160 110 Q150 90 128 90 Q106 90 96 110 Z" fill="#4B2991"/>
+  <ellipse cx="128" cy="100" rx="24" ry="10" fill="#7C3AED"/>
+  <!-- Eyes -->
+  <ellipse cx="112" cy="145" rx="7" ry="9" fill="#222"/>
+  <ellipse cx="144" cy="145" rx="7" ry="9" fill="#222"/>
+  <!-- Smile -->
+  <path d="M116 165 Q128 180 140 165" stroke="#222" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <!-- Blush -->
+  <ellipse cx="105" cy="160" rx="6" ry="3" fill="#FFB3B3"/>
+  <ellipse cx="151" cy="160" rx="6" ry="3" fill="#FFB3B3"/>
+</svg> 

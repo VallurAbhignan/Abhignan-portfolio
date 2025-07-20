@@ -1,0 +1,133 @@
+.about {
+  background: linear-gradient(135deg, #0a0a0a 0%, #1a1a2e 100%);
+}
+
+.section-title {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 800;
+  margin-bottom: 3rem;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.about-content {
+  display: flex;
+  gap: 3rem;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.about-text {
+  flex: 2;
+  background: rgba(255,255,255,0.02);
+  border-radius: 18px;
+  padding: 2.5rem 2rem;
+  box-shadow: 0 4px 32px rgba(102,126,234,0.05);
+  margin-bottom: 0;
+}
+
+.about-text h3 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin-bottom: 1.2rem;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.about-text p {
+  font-size: 1.2rem;
+  color: #e0e0e0;
+  margin-bottom: 1.2rem;
+  line-height: 1.7;
+}
+
+.about-stats {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.stats-grid {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.stat-card {
+  background: rgba(40, 40, 60, 0.7);
+  border-radius: 20px;
+  padding: 2.5rem 2rem;
+  box-shadow: 0 8px 32px rgba(102,126,234,0.10);
+  text-align: center;
+  min-width: 320px;
+  max-width: 350px;
+  margin-top: 1.5rem;
+}
+
+.stat-card h4 {
+  font-size: 2.3rem;
+  font-weight: 800;
+  margin-bottom: 1.2rem;
+  color: #7b8cff;
+  letter-spacing: 1px;
+  line-height: 1.1;
+}
+
+.stat-card p {
+  font-size: 1.1rem;
+  color: #e0e0e0;
+  margin-bottom: 0.7rem;
+}
+
+.stat-card strong {
+  color: #a7bfff;
+  font-weight: 700;
+}
+
+.about-stats h3 {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+@media (max-width: 1024px) {
+  .about-content {
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .about-text, .about-stats {
+    width: 100%;
+    max-width: 100%;
+  }
+  .stats-grid {
+    justify-content: flex-start;
+  }
+  .stat-card {
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 600px) {
+  .section-title {
+    font-size: 2rem;
+  }
+  .about-text h3 {
+    font-size: 1.3rem;
+  }
+  .about-text p {
+    font-size: 1rem;
+  }
+  .stat-card {
+    min-width: 0;
+    max-width: 100%;
+    padding: 1.5rem 1rem;
+  }
+} 
