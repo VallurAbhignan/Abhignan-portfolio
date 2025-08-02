@@ -25,7 +25,7 @@ const About = () => {
               <div className="stat-card">
                 <h4>Graphic Era University</h4>
                 <p>B.Tech in Computer Science</p>
-                <p><strong>GPA:</strong> 8.16/10</p>
+                <p><strong>GPA:</strong> 7.64/10</p>
                 <p><strong>Sept 2021 – July 2025</strong></p>
               </div>
             </div>
